@@ -5,16 +5,16 @@ var addElementToBeginningOfArray = function(chocolateBars, newBar) {
 }
 
 var destructivelyAddElementToBeginningOfArray = function(chocolateBars, newBar) {
-  chocolateBars.push(newBar);
+  chocolateBars.unshift(newBar);
   return chocolateBars;
 }
 
 var addElementToEndOfArray = function() {
-
+  return [...chocolateBars, newBar];
 }
 
 var destructivelyAddElementToEndOfArray = function() {
-
+  return chocolateBars.
 }
 
 var accessElementInArray = function() {
