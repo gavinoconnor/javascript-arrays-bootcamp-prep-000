@@ -9,12 +9,12 @@ var destructivelyAddElementToBeginningOfArray = function(chocolateBars, newBar) 
   return chocolateBars;
 }
 
-var addElementToEndOfArray = function() {
+var addElementToEndOfArray = function(chocolateBars, newBar) {
   return [...chocolateBars, newBar];
 }
 
-var destructivelyAddElementToEndOfArray = function() {
-  return chocolateBars.
+var destructivelyAddElementToEndOfArray = function(chocolateBars, newBar) {
+  return chocolateBars.push(newBar)
 }
 
 var accessElementInArray = function() {
