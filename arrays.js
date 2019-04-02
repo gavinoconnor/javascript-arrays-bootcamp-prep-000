@@ -1,53 +1,37 @@
-// var ingredient1 = "bread"
-// var ingredient2 = "mild cheese"
-// var ingredient3 = "sharp cheese"
-// var ingredient4 = "butter"
-// var ingredient5 = "tomato"
-// var ingredient6 = "garlic"
+var chocolateBars = [`snickers`, `hundred grand`, `kitkat`, `skittles`]
 
-var chocolateBars = [
-  "snickers",
-  "hundred grand",
-  "kitkat",
-  "skittles"
-]
+var addElementToBeginningOfArray = function() {
 
-var addElementToBeginningOfArray = function(chocolateBars, newBar) {
-  return [newBar, ...chocolateBars]
 }
 
-var destructivelyAddElementToBeginningOfArray = function(chocolateBars, newBar) {
-  chocolateBars.unshift(newBar)
-  return chocolateBars
+var destructivelyAddElementToBeginningOfArray = function() {
+
 }
 
-var addElementToEndOfArray = function(chocolateBars, newBar) {
-  return [...chocolateBars, newBar]
+var addElementToEndOfArray = function() {
+
 }
 
-var destructivelyAddElementToEndOfArray = function(chocolateBars, newBar) {
-  chocolateBars.push(newBar)
-  return chocolateBars
+var destructivelyAddElementToEndOfArray = function() {
+
 }
 
-var accessElementInArray = function(chocolateBars, index) {
-  return chocolateBars[index]
+var accessElementInArray = function() {
+
 }
 
-var destructivelyRemoveElementFromBeginningOfArray = function(chocolateBars) {
-  chocolateBars.shift()
-  return chocolateBars
+var destructivelyRemoveElementFromBeginningOfArray = function() {
+
 }
 
-var removeElementFromBeginningOfArray = function(chocolateBars) {
-   return chocolateBars.slice(1)
+var removeElementFromBeginningOfArray = function() {
+
 }
 
-var destructivelyRemoveElementFromEndOfArray = function(chocolateBars) {
-  chocolateBars.pop()
-  return chocolateBars
+var destructivelyRemoveElementFromEndOfArray = function() {
+
 }
 
-var removeElementFromEndOfArray = function(chocolateBars) {
-  return chocolateBars.slice(0, chocolateBars.length - 1)
+var removeElementFromEndOfArray = function() {
+
 }
